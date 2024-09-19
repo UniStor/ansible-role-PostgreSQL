@@ -1,0 +1,5 @@
+---
+# https://ubuntu.com/server/docs/install-and-configure-postgresql
+- name: Ubuntu source
+  include_tasks: "source/{{ Ubuntu_source }}.yml"
+

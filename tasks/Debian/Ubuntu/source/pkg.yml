@@ -1,0 +1,6 @@
+---
+- name: Install PostgreSQL from apt
+  ansible.builtin.apt:
+    pkg:
+    - postgresql
+  become: true
